@@ -53,8 +53,8 @@ use VerboseAdventure\VerboseAdventure;
             $acm = new acm(__DIR__, 'Lydia Telegram Bot');
 
             $TelegramSchema = new Schema();
-            $TelegramSchema->setDefinition('BotName', '<BOT NAME HERE>');
-            $TelegramSchema->setDefinition('BotToken', '<BOT TOKEN>');
+            $TelegramSchema->setDefinition('BotName', 'Ai Robot');
+            $TelegramSchema->setDefinition('BotToken', '5182467450:AAFR0iSFRXkxMHf0-8gwVVnbIsCGQb5lxNk');
             $TelegramSchema->setDefinition('BotEnabled', 'true');
             $TelegramSchema->setDefinition('WebHook', 'http://localhost');
             $TelegramSchema->setDefinition('MaxConnections', 100);
